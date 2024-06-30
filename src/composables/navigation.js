@@ -1,11 +1,11 @@
 /**
- * Created by Ryan Balieiro on 08.24.2023
+ * Created by Nima Karimi on 08.24.2023
  * This composable will be responsible for managing the navigation data.
  */
 
-import {reactive} from "vue"
-import {useConstants} from "./constants.js"
-import {useLayout} from "./layout.js"
+import { reactive } from "vue"
+import { useConstants } from "./constants.js"
+import { useLayout } from "./layout.js"
 
 const constants = useConstants()
 const layout = useLayout()
@@ -152,7 +152,7 @@ export function useNavigation() {
      * @param {String} routeName
      */
     const update = (routeName) => {
-        if(layout.isBootstrapBreakpoint(constants.NAVIGATION_SIDEBAR_BREAKPOINT)) {
+        if (layout.isBootstrapBreakpoint(constants.NAVIGATION_SIDEBAR_BREAKPOINT)) {
             _navigationOptions.mode = NavigationModes.ALL_AT_ONCE
             _navigationOptions.activeSectionId = _scrollSpy('section')
         }
@@ -168,7 +168,7 @@ export function useNavigation() {
      */
     const _scrollSpy = (elementClass) => {
         const sections = document.querySelectorAll('.' + elementClass)
-        if(!sections)
+        if (!sections)
             return null
 
         let currentSectionId = null
@@ -192,7 +192,7 @@ export function useNavigation() {
      * @return {*}
      */
     const getLastVisitedSectionOn = (categoryId) => {
-        if(_navigationOptions.lastVisitedSections[categoryId])
+        if (_navigationOptions.lastVisitedSections[categoryId])
             return _navigationOptions.lastVisitedSections[categoryId]
 
         return _categorySectionMapping[categoryId][0]

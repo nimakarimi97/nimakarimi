@@ -1,5 +1,5 @@
 /**
- * Created by Ryan Balieiro on 08.23.2023
+ * Created by Nima Karimi on 08.23.2023
  * Hub for defining app constants.
  */
 export function useConstants() {
@@ -58,5 +58,5 @@ export function useConstants() {
         ERROR: "error"
     }
 
-    return {BASE_PATH, HTML_CLASSES, BOOTSTRAP_BREAKPOINTS, LOCAL_STORAGE_ITEMS, NAVIGATION_SIDEBAR_BREAKPOINT, RANDOM_COLOR_ARRAY, LoadStatus}
+    return { BASE_PATH, HTML_CLASSES, BOOTSTRAP_BREAKPOINTS, LOCAL_STORAGE_ITEMS, NAVIGATION_SIDEBAR_BREAKPOINT, RANDOM_COLOR_ARRAY, LoadStatus }
 }

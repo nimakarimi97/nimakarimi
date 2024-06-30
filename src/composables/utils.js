@@ -1,5 +1,5 @@
 /**
- * Created by Ryan Balieiro on 08.23.2023
+ * Created by Nima Karimi on 08.23.2023
  * This composable will implement helper functions that can be used by multiple components within the architecture.
  */
 export function useUtils() {
@@ -10,7 +10,7 @@ export function useUtils() {
      * @return {number}
      */
     const clamp = (value, min, max) => {
-        if(isNaN(Number(value)) || value === null || value === undefined)
+        if (isNaN(Number(value)) || value === null || value === undefined)
             return min
 
         return Math.min(Math.max(value, min), max)
@@ -63,10 +63,10 @@ export function useUtils() {
      * @return {String}
      */
     const localizeDate = (stringDate, languageId) => {
-        const date = stringDate === 'now' ? new Date() : parseDate(stringDate)
-        const options = { year: 'numeric', month: 'short'}
+        const date = stringDate === 'now' ? "present" : parseDate(stringDate)
+        const options = { year: 'numeric', month: 'short' }
 
-        const localizedDate =  date.toLocaleString(
+        const localizedDate = date.toLocaleString(
             languageId || 'en',
             options
         )
@@ -97,7 +97,7 @@ export function useUtils() {
      */
     const parsePercentage = (numericValue, breakpoints) => {
         let percentage = clamp(numericValue, 0, 100)
-        if(!breakpoints || typeof breakpoints !== 'object') {
+        if (!breakpoints || typeof breakpoints !== 'object') {
             return percentage + "%"
         }
 
@@ -114,7 +114,7 @@ export function useUtils() {
      */
     const reverseArray = (array) => {
         let reversed = []
-        for(let i in array) {
+        for (let i in array) {
             reversed.unshift(array[i])
         }
         return reversed

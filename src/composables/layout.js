@@ -1,8 +1,8 @@
 /**
- * Created by Ryan Balieiro on 08.23.2023
+ * Created by Nima Karimi on 08.23.2023
  * This composable will implement helper methods that manipulate DOM elements.
  */
-import {useConstants} from "./constants.js"
+import { useConstants } from "./constants.js"
 
 const constants = useConstants()
 
@@ -48,7 +48,7 @@ export function useLayout() {
      * @return {*}
      */
     const getFeedbackView = () => {
-        if(_feedbackView) {
+        if (_feedbackView) {
             return _feedbackView.value
         }
 
@@ -59,8 +59,8 @@ export function useLayout() {
      * @param {Boolean} enabled
      */
     const setPageScrollingEnabled = (enabled) => {
-        const root = document.getElementsByTagName( 'html' )[0]
-        if(!enabled) {
+        const root = document.getElementsByTagName('html')[0]
+        if (!enabled) {
             document.body.className = constants.HTML_CLASSES.bodyNoScroll
             root.className += ' ' + constants.HTML_CLASSES.bodyNoScroll
         }
@@ -93,7 +93,7 @@ export function useLayout() {
         let totalImages = 0
 
         const loadedImages = Array.from(imageElements).reduce((count, image) => {
-            if(!image.classList.contains(constants.HTML_CLASSES.imageViewImageIgnoredOnCount)) {
+            if (!image.classList.contains(constants.HTML_CLASSES.imageViewImageIgnoredOnCount)) {
                 totalImages++
                 if (image.getAttribute('loadStatus') !== constants.LoadStatus.LOADING)
                     return count + 1
@@ -101,7 +101,7 @@ export function useLayout() {
             return count
         }, 0)
 
-        return {loaded: loadedImages, total: totalImages }
+        return { loaded: loadedImages, total: totalImages }
     }
 
     /**
@@ -152,7 +152,7 @@ export function useLayout() {
      */
     const instantScrollToElement = (elementId, withTimeout) => {
         const target = document.getElementById(elementId)
-        if(!target) {
+        if (!target) {
             return
         }
 
@@ -170,7 +170,7 @@ export function useLayout() {
      */
     const smoothScrollToElement = (elementId, withTimeout) => {
         const target = document.getElementById(elementId)
-        if(!target) {
+        if (!target) {
             return
         }
 
@@ -188,7 +188,7 @@ export function useLayout() {
      * @private
      */
     const _applyAfterTimeout = (closure, timeout) => {
-        if(timeout) {
+        if (timeout) {
             setTimeout(closure, timeout)
         }
         else {

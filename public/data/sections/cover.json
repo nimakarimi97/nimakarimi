@@ -1,0 +1,29 @@
+{
+    "locales": {
+        "en": {
+            "welcome": "Welcome to my <span class='text-primary'>Resume!</span>",
+            "welcomeShort": "Welcome!",
+            "bio": "With 8 years as a UX designer, I excel in user-centric interfaces. My passion for empathetic design drives me to create delightful and innovative digital experiences. Let's collaborate and craft something extraordinary together."
+        },
+
+        "es": {
+            "welcome": "¡Bienvenido(a) a mi <span class='text-primary'>CV!</span>",
+            "welcomeShort": "¡Saludos!",
+            "bio": "Con 8 años de experiencia como diseñador de UX, destaco en la creación de interfaces centradas en el usuario. Mi pasión por el diseño empático me impulsa a crear experiencias digitales encantadoras e innovadoras. Colaboremos juntos para crear algo extraordinario."
+        }
+    },
+
+    "items": {
+        "socialCircles": [
+            "@link{profile.contact.email}",
+            "@link{profile.contact.linkedin}",
+            "@link{profile.contact.github}"
+        ],
+
+        "contactListItems": [
+            "@link{profile.contact.address}",
+            "@link{profile.contact.email}",
+            "@link{profile.contact.phone}"
+        ]
+    }
+}

@@ -1,4 +1,4 @@
-# [Vue Resume Template](https://ryanbalieiro.github.io/vue-resume-template/) by Ryan Balieiro
+# [Vue Resume Template](https://nimakarimi.github.io/vue-resume-template/) by Nima Karimi
 
 This theme offers a simple and clean design tailored for creating user-friendly website resumes or CV landing pages. It's built using Vue 3.0 (Composition API) and Bootstrap 5, presenting a cohesive one-page layout that blends functionality and aesthetics.
 
@@ -16,7 +16,7 @@ Key features:
 
 ## Preview
 
-Check out a live version of the template **[here](https://ryanbalieiro.github.io/vue-resume-template/).**
+Check out a live version of the template **[here](https://nimakarimi.github.io/vue-resume-template/).**
 
 ### 1. Desktop Screenshots
 
@@ -30,7 +30,7 @@ Check out a live version of the template **[here](https://ryanbalieiro.github.io
 
 1. Clone the repo:
 ```
-git clone https://github.com/ryanbalieiro/vue-resume-template
+git clone https://github.com/nimakarimi/vue-resume-template
 ```
 
 2. Navigate to the root directory of the project and install all dependencies with npm:
@@ -214,7 +214,7 @@ export default defineConfig({
 })
 ```
 
-In simple terms, if you consider GitHub hosting the GitHub Pages site for this repo at the URL `https://ryanbalieiro.github.io/vue-resume-template/`, the correct base directory to set is `/vue-resume-template/`. This ensures that the application's resources are correctly loaded and linked when accessed from this URL.
+In simple terms, if you consider GitHub hosting the GitHub Pages site for this repo at the URL `https://nimakarimi.github.io/vue-resume-template/`, the correct base directory to set is `/vue-resume-template/`. This ensures that the application's resources are correctly loaded and linked when accessed from this URL.
 
 If you're deploying to Netlify or your own custom domain where your website is located at the root, you can leave the `base` setting as `'/'`.
 
@@ -237,7 +237,7 @@ This step serves as a solution to the problem discussed in detail at https://sta
 
 ## About
 
-This template was created by and is maintained by **[Ryan Balieiro](https://ryanbalieiro.com/)**.
+This template was created by and is maintained by **[Nima Karimi](https://nimakarimi.com/)**.
 
 It's based on the [Bootstrap](https://getbootstrap.com/) framework created by Mark Otto and Jacob Thorton; and the [Vue](https://vuejs.org/) framework created by Evan You.
 

@@ -1,11 +1,7 @@
-/**
- * Created by Ryan Balieiro on 08.23.2023
- * This composable will fetch and manage the application data.
- */
-import {reactive} from "vue"
-import {useUtils} from "./utils.js"
-import {useLanguage} from "./language.js"
-import {useConstants} from "./constants.js"
+import { reactive } from "vue"
+import { useUtils } from "./utils.js"
+import { useLanguage } from "./language.js"
+import { useConstants } from "./constants.js"
 
 const constants = useConstants()
 const language = useLanguage()
@@ -37,7 +33,7 @@ let _progressData = reactive({
  * @type {{language:String, entries:Object}}
  * @private
  */
-let _localizedData = reactive({language: null, entries:null})
+let _localizedData = reactive({ language: null, entries: null })
 
 /**
  * @type {Object}
@@ -167,14 +163,14 @@ export function useData() {
             const sectionCategory = _findObjectWithId(_jsonData.categories, sectionCategoryId)
             const jsonPath = section['jsonPath']
 
-            if(!sectionCategory) {
+            if (!sectionCategory) {
                 throw new Error(`The section with id "${sectionId}" has an invalid categoryId "${sectionCategoryId}". There's no such category.`)
             }
 
             sectionCategory['sectionIds'] = sectionCategory['sectionIds'] || []
             sectionCategory['sectionIds'].push(sectionId)
 
-            if(utils.isStringAJSONUrl(jsonPath)) {
+            if (utils.isStringAJSONUrl(jsonPath)) {
                 section['content'] = await _loadJson(jsonPath)
             }
             else {
@@ -209,12 +205,12 @@ export function useData() {
      * @private
      */
     const _evaluateObject = (object) => {
-        if(typeof object === 'string') {
+        if (typeof object === 'string') {
             return _parseStringField(object)
         }
 
-        else if(typeof object === 'object') {
-            for(let i in object) {
+        else if (typeof object === 'object') {
+            for (let i in object) {
                 object[i] = _evaluateObject(object[i])
             }
         }
@@ -229,7 +225,7 @@ export function useData() {
      */
     const _parseStringField = (fieldValue) => {
         /** String follows the pattern @link{...} - must create a reference to an object from another json file **/
-        if(/@link{([^}]*)}/g.test(fieldValue)) {
+        if (/@link{([^}]*)}/g.test(fieldValue)) {
             return _resolveCrossJsonReference(fieldValue)
         }
 
@@ -278,7 +274,7 @@ export function useData() {
      */
     const _updateLocalization = () => {
         const currentLanguageId = language.getSelectedLanguage()['id']
-        if(!_localizationsCache[currentLanguageId]) {
+        if (!_localizationsCache[currentLanguageId]) {
             _localizationsCache[currentLanguageId] = _cacheLocalization(_jsonData, currentLanguageId)
         }
 
@@ -294,17 +290,17 @@ export function useData() {
     const _cacheLocalization = (object, languageId) => {
         const localizedFields = {}
 
-        if(typeof object === 'string' || typeof object === 'number' || typeof object === 'boolean')
+        if (typeof object === 'string' || typeof object === 'number' || typeof object === 'boolean')
             return object
 
-        for(const [key, value] of Object.entries(object)) {
-            if(Array.isArray(value)) {
+        for (const [key, value] of Object.entries(object)) {
+            if (Array.isArray(value)) {
                 localizedFields[key] = value.map(valueItem => _cacheLocalization(valueItem, languageId))
             }
-            else if(key.includes('locales')) {
+            else if (key.includes('locales')) {
                 localizedFields[key] = _getLocalizedEntries(value, languageId)
             }
-            else if(value !== null && value !== undefined) {
+            else if (value !== null && value !== undefined) {
                 localizedFields[key] = _cacheLocalization(value, languageId)
             }
             else {
@@ -324,9 +320,9 @@ export function useData() {
         const localizedEntries = {}
         const defaultLanguageId = language.getDefaultLanguage()['id']
 
-        for(let string in localesHash[defaultLanguageId]) {
+        for (let string in localesHash[defaultLanguageId]) {
             let translation = localesHash[languageId]?.[string]
-            if(!translation)
+            if (!translation)
                 translation = localesHash[defaultLanguageId][string]
 
             localizedEntries[string] = translation
