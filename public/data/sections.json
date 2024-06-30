@@ -48,20 +48,6 @@
             "faIcon": "fa-solid fa-tools"
         },
         {
-            "id": "portfolio",
-            "categoryId": "showcase",
-            "component": "GallerySection",
-            "jsonPath": "data/sections/portfolio.json",
-            "faIcon": "fa-solid fa-folder-open"
-        },
-        {
-            "id": "achievements",
-            "categoryId": "showcase",
-            "component": "ThreadsSection",
-            "jsonPath": "data/sections/achievements.json",
-            "faIcon": "fa-solid fa-award"
-        },
-        {
             "id": "hobbies",
             "categoryId": "more",
             "component": "InfoSection",
