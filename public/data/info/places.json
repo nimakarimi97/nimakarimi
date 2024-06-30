@@ -1,79 +1,59 @@
 {
-    "adobe": {
-        "logoUrl": "images/places/logo-adobe.png",
+    "keySolution": {
+        "logoUrl": "images/places/key_solution_srl_logo.jpeg",
         "faIcon": "fa fa-house-laptop",
         "locales": {
-            "en": {"name": "Adobe Inc."}
+            "en": {
+                "name": "Key Solution"
+            }
         }
     },
-
-    "apple": {
-        "logoUrl": "images/places/logo-apple.png",
+    "cp": {
+        "logoUrl": "images/places/gruppo_centro_paghe_logo.jpeg",
         "faIcon": "fab fa-apple",
         "locales": {
-            "en": {"name": "Apple Inc."}
+            "en": {
+                "name": "Gruppo Centro Paghe"
+            }
         }
     },
-
-    "coursera": {
-        "logoUrl": "images/places/logo-coursera.png",
+    "leanbit": {
+        "logoUrl": "images/places/leanbit_logo.jpeg",
         "faIcon": "fa fa-house-laptop",
         "locales": {
-            "en": {"name": "Coursera"}
+            "en": {
+                "name": "Leanbit"
+            }
         }
     },
-
-    "forbes": {
-        "logoUrl": null,
-        "faIcon": "fa-solid fa-newspaper",
-        "locales": {
-            "en": {"name": "Forbes"}
-        }
-    },
-
-    "google": {
-        "logoUrl": null,
+    "kntu": {
+        "logoUrl": "images/places/kntu_logo.jpeg",
         "faIcon": "fab fa-google",
         "locales": {
-            "en": {"name": "Google"}
+            "en": {
+                "name": "K. N. Toosi University of Technology"
+            }
         }
     },
-
-    "harvard": {
-        "logoUrl": "images/places/logo-harvard.png",
+    "unipd": {
+        "logoUrl": "images/places/unipd_logo.jpeg",
         "faIcon": "fas fa-university",
         "locales": {
-            "en": {"name": "Harvard University"},
-            "es": {"name": "Universidad de Harvard"},
-            "fr": {"name": "Université Harvard"},
-            "zh": {"name": "哈佛大学"}
+            "en": {
+                "name": "University of Padova"
+            },
+            "it": {
+                "name": "Università degli Studi di Padova"
+            }
         }
     },
-
-    "paris": {
-        "logoUrl": "images/places/logo-paris-university.png",
-        "faIcon": "fas fa-university",
-        "locales": {
-            "en": {"name": "University of Paris"},
-            "es": {"name": "Universidad de París"},
-            "fr": {"name": "Université de Paris"},
-            "zh": {"name": "巴黎大学"}
-        }
-    },
-
-    "udacity": {
-        "logoUrl": "images/places/logo-udacity.png",
-        "faIcon": "fa fa-house-laptop",
-        "locales": {
-            "en": {"name": "Udacity"}
-        }
-    },
-
     "uxStudio": {
         "logoUrl": "images/places/logo-ux-studio.png",
         "faIcon": "fas fa-paint-brush",
         "locales": {
-            "en": {"name": "UX Masters Studio"}
+            "en": {
+                "name": "UX Masters Studio"
+            }
         }
     }
 }
