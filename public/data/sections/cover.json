@@ -1,25 +1,22 @@
 {
     "locales": {
         "en": {
-            "welcome": "Welcome to my <span class='text-primary'>Resume!</span>",
+            "welcome": "Welcome to my <span class='text-primary'>Résumé!</span>",
             "welcomeShort": "Welcome!",
-            "bio": "With 8 years as a UX designer, I excel in user-centric interfaces. My passion for empathetic design drives me to create delightful and innovative digital experiences. Let's collaborate and craft something extraordinary together."
+            "bio": "Experienced <strong>Full-stack Web Developer</strong> and <strong>Project Manager</strong> with a proven track record in managing and delivering complex web projects. Expertise in Vue, Nuxt.JS, React, Node.JS, Python, and various databases. Strong project management skills and customer relations, backed by a Master's in <strong>Management Engineering</strong>."
         },
-
-        "es": {
-            "welcome": "¡Bienvenido(a) a mi <span class='text-primary'>CV!</span>",
-            "welcomeShort": "¡Saludos!",
-            "bio": "Con 8 años de experiencia como diseñador de UX, destaco en la creación de interfaces centradas en el usuario. Mi pasión por el diseño empático me impulsa a crear experiencias digitales encantadoras e innovadoras. Colaboremos juntos para crear algo extraordinario."
+        "it": {
+            "welcome": "Benvenuto nel mio <span class='text-primary'>CV!</span>",
+            "welcomeShort": "Benvenuto!",
+            "bio": "Esperto <strong>Full-stack Web Developer</strong> e <strong>Project Manager</strong> con un curriculum solido nel management e sviluppo di progetti web complessi. Esperti in Vue, Nuxt.JS, React, Node.JS, Python e diverse banche dati. Forti competenze di project management e relazioni con i clienti, supportate da un Master in <strong>Ingegneria del Management</strong>."
         }
     },
-
     "items": {
         "socialCircles": [
             "@link{profile.contact.email}",
             "@link{profile.contact.linkedin}",
             "@link{profile.contact.github}"
         ],
-
         "contactListItems": [
             "@link{profile.contact.address}",
             "@link{profile.contact.email}",
