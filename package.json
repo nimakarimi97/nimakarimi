@@ -1,6 +1,10 @@
 {
-	"name": "vue-resume-template",
-	"private": true,
+	"name": "nimakarimi.me",
+	"author": {
+		"name": "Nima Karimi",
+		"email": "nimakarimi676@gmail.com",
+		"link": "https://nimakarimi.me"
+	},
 	"version": "1.0.0",
 	"type": "module",
 	"scripts": {
