@@ -3,13 +3,8 @@
 		"en": {
 			"title": "<span class='text-primary'>Skill</span> Set",
 			"description": "Exploring the diverse range of skills I've acquired and developed:"
-		},
-		"es": {
-			"title": "Conjunto de <span class='text-primary'>Habilidades</span>",
-			"description": "Explorando la diversidad de habilidades que he adquirido y desarrollado:"
 		}
 	},
-
 	"subcategories": [
 		{
 			"id": "abilities",
@@ -17,21 +12,22 @@
 			"progress": null,
 			"faIcon": "fa-solid fa-square",
 			"locales": {
-				"en": { "title": null }
+				"en": {
+					"title": null
+				}
 			}
 		},
-
 		{
 			"id": "programming",
 			"type": "grid",
 			"progress": "number",
 			"faIcon": "fa fa-code",
 			"locales": {
-				"en": { "title": "Programming" },
-				"es": { "title": "Programación" }
+				"en": {
+					"title": "Programming"
+				}
 			}
 		},
-
 		{
 			"id": "languages",
 			"type": "list",
@@ -45,23 +41,23 @@
 			},
 			"faIcon": "fa fa-language",
 			"locales": {
-				"en": { "title": "Languages" },
-				"es": { "title": "Idiomas" }
+				"en": {
+					"title": "Languages"
+				}
 			}
 		},
-
 		{
 			"id": "extra",
 			"type": "grid",
 			"progress": null,
 			"faIcon": "fa fa-marker",
 			"locales": {
-				"en": { "title": "Bonus Skills" },
-				"es": { "title": "Habilidades Adicionales" }
+				"en": {
+					"title": "Bonus Skills"
+				}
 			}
 		}
 	],
-
 	"items": {
 		"abilities": [
 			{
@@ -72,14 +68,9 @@
 					"en": {
 						"title": "Responsive Layouts",
 						"description": "Proficient in crafting adaptable layouts for diverse devices, ensuring optimal user experience."
-					},
-					"es": {
-						"title": "Diseños Responsivos",
-						"description": "Destacada habilidad en crear diseños adaptables para diversos dispositivos, garantizando una experiencia de usuario óptima ."
 					}
 				}
 			},
-
 			{
 				"imageIconUrl": null,
 				"faIcon": "fas fa-paint-roller",
@@ -88,14 +79,9 @@
 					"en": {
 						"title": "Design Principles",
 						"description": "Masterful at creating captivating designs, blending color theory, typography, layout, and balance for effective messaging."
-					},
-					"es": {
-						"title": "Principios de Diseño",
-						"description": "Experto en diseño: fusiono teoría del color, tipografía, layout y equilibrio para cautivar y transmitir mensajes."
 					}
 				}
 			},
-
 			{
 				"imageIconUrl": null,
 				"faIcon": "fas fa-vector-square",
@@ -104,14 +90,9 @@
 					"en": {
 						"title": "Wireframing",
 						"description": "Skilled in creating detailed wireframes to visualize and plan user interfaces, effectively laying the foundation for intuitive design."
-					},
-					"es": {
-						"title": "Creación de Wireframes",
-						"description": "Habilidad para crear wireframes detallados para visualizar y planificar interfaces de usuario."
 					}
 				}
 			},
-
 			{
 				"imageIconUrl": null,
 				"faIcon": "fas fa-check-double",
@@ -120,14 +101,9 @@
 					"en": {
 						"title": "Usability Testing",
 						"description": "Enhancing user experiences through comprehensive usability testing."
-					},
-					"es": {
-						"title": "Pruebas de Usabilidad",
-						"description": "Experiencia en mejorar experiencias de usuario mediante pruebas exhaustivas de usabilidad."
 					}
 				}
 			},
-
 			{
 				"imageIconUrl": null,
 				"faIcon": "fas fa-expand-arrows-alt",
@@ -136,14 +112,9 @@
 					"en": {
 						"title": "Interaction Design",
 						"description": "Proficient in creating intuitive and seamless interactions for user-friendly experiences, harmonizing aesthetics and usability."
-					},
-					"es": {
-						"title": "Diseño de Interacción",
-						"description": "Competente en la creación de interacciones intuitivas y fluidas para experiencias amigables para el usuario."
 					}
 				}
 			},
-
 			{
 				"imageIconUrl": null,
 				"faIcon": "fas fa-laptop-code",
@@ -152,66 +123,66 @@
 					"en": {
 						"title": "Prototyping",
 						"description": "Skilled in translating concepts into interactive prototypes for testing and refinement."
-					},
-					"es": {
-						"title": "Prototipado",
-						"description": "Habilidad para traducir conceptos en prototipos interactivos para pruebas y perfeccionamiento."
 					}
 				}
 			}
 		],
-
 		"programming": [
 			{
 				"imageIconUrl": null,
 				"faIcon": "fab fa-html5",
 				"value": 95,
 				"locales": {
-					"en": { "title": "HTML 5", "description": "Experience Time: 5 years" },
-					"es": { "title": "HTML 5", "description": "Experiencia: 5 años" }
+					"en": {
+						"title": "HTML 5",
+						"description": "Experience Time: 5 years"
+					}
 				}
 			},
-
 			{
 				"imageIconUrl": null,
 				"faIcon": "fab fa-css3-alt",
 				"value": 90,
 				"locales": {
-					"en": { "title": "CSS 3", "description": "Experience Time: 3 years" },
-					"es": { "title": "CSS 3", "description": "Experiencia: 3 años" }
+					"en": {
+						"title": "CSS 3",
+						"description": "Experience Time: 3 years"
+					}
 				}
 			},
-
 			{
 				"imageIconUrl": null,
 				"faIcon": "fab fa-sass",
 				"value": 65,
 				"locales": {
-					"en": { "title": "Sass/Less", "description": "Experience Time: 2 years" },
-					"es": { "title": "Sass/Less", "description": "Experiencia: 2 años" }
+					"en": {
+						"title": "Sass/Less",
+						"description": "Experience Time: 2 years"
+					}
 				}
 			},
-
 			{
 				"imageIconUrl": null,
 				"faIcon": "fab fa-js-square",
 				"value": 85,
 				"locales": {
-					"en": { "title": "JavaScript", "description": "Experience Time: 3 years" },
-					"es": { "title": "JavaScript", "description": "Experiencia: 3 años" }
+					"en": {
+						"title": "JavaScript",
+						"description": "Experience Time: 3 years"
+					}
 				}
 			},
-
 			{
 				"imageIconUrl": null,
 				"faIcon": "fab fa-vuejs",
 				"value": 100,
 				"locales": {
-					"en": { "title": "Vue 3", "description": "Experience Time: 2 years" },
-					"es": { "title": "Vue 3", "description": "Experiencia: 2 años" }
+					"en": {
+						"title": "Vue 3",
+						"description": "Experience Time: 2 years"
+					}
 				}
 			},
-
 			{
 				"imageIconUrl": null,
 				"faIcon": "fab fa-react",
@@ -220,15 +191,10 @@
 					"en": {
 						"title": "React",
 						"description": "Nanodegree in React development (Udacity)<br>Experience time: 1 year"
-					},
-					"es": {
-						"title": "React",
-						"description": "Nanodegree de desarrollo React (Udacity)<br>Experiencia: 1 año"
 					}
 				}
 			}
 		],
-
 		"languages": [
 			{
 				"imageIconUrl": "images/flags/ir.png",
@@ -263,7 +229,6 @@
 					}
 				}
 			},
-
 			{
 				"imageIconUrl": "images/flags/es.png",
 				"faIcon": null,
@@ -276,7 +241,6 @@
 				}
 			}
 		],
-
 		"extra": [
 			{
 				"imageIconUrl": null,
@@ -286,10 +250,6 @@
 					"en": {
 						"title": "User Interface (UI) Design",
 						"description": "Able to design intuitive and visually appealing user interfaces for seamless user interactions."
-					},
-					"es": {
-						"title": "Diseño de Interfaz de Usuario (UI)",
-						"description": "Capaz de diseñar interfaces de usuario intuitivas y visualmente atractivas para interacciones de usuario fluidas."
 					}
 				}
 			},
@@ -301,10 +261,6 @@
 					"en": {
 						"title": "Front-End Development",
 						"description": "Able to code in VueJS, React JS, Swift, AngularJS and TypeScript."
-					},
-					"es": {
-						"title": "Desarrollo Front-End",
-						"description": "Capaz de codificar en VueJS, AngularJS y TypeScript."
 					}
 				}
 			},
@@ -316,10 +272,6 @@
 					"en": {
 						"title": "Information Visualization",
 						"description": "Able to transform complex data into clear visuals."
-					},
-					"es": {
-						"title": "Visualización de Información",
-						"description": "Capaz de transformar datos complejos en visuales claros."
 					}
 				}
 			},
@@ -331,10 +283,6 @@
 					"en": {
 						"title": "Accessibility and Inclusive Design",
 						"description": "Able to create digital experiences that are accessible to all."
-					},
-					"es": {
-						"title": "Accesibilidad y Diseño Inclusivo",
-						"description": "Capaz de crear experiencias digitales accesibles para todos."
 					}
 				}
 			},
@@ -346,10 +294,6 @@
 					"en": {
 						"title": "User-Centric Data Analysis",
 						"description": "Proficient in analyzing data with a focus on the needs and preferences of users, enabling data-driven decisions that align with user expectations."
-					},
-					"es": {
-						"title": "Análisis de Datos Centrado en el Usuario",
-						"description": "Competente en analizar datos con un enfoque en las necesidades y preferencias de los usuarios, lo que permite tomar decisiones basadas en datos que se alinean con las expectativas de los usuarios."
 					}
 				}
 			},
@@ -361,10 +305,6 @@
 					"en": {
 						"title": "Mobile App User Experience",
 						"description": "Skilled in crafting user-centered experiences within mobile applications, ensuring smooth and intuitive interactions."
-					},
-					"es": {
-						"title": "Experiencia de Usuario en Aplicaciones Móviles",
-						"description": "Experto en crear experiencias centradas en el usuario en aplicaciones móviles, garantizando interacciones fluidas e intuitivas."
 					}
 				}
 			}
