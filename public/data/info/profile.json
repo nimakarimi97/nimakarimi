@@ -19,10 +19,10 @@
 		},
 		"email": {
 			"id": "email",
-			"value": "nimakarimi676@gmail.com",
-			"valueShort": "nimakarimi676@gmail.com",
+			"value": "info@nimakarimi.me",
+			"valueShort": "info@nimakarimi.me",
 			"faIcon": "fa-solid fa-envelope",
-			"href": "mailto:nimakarimi676@gmail.com"
+			"href": "mailto:info@nimakarimi.me"
 		},
 		"facebook": {
 			"id": "facebook",
