@@ -1,10 +1,12 @@
 {
-	"name": "nimakarimi.me",
+	"name": "nimakarimi",
 	"author": {
 		"name": "Nima Karimi",
 		"email": "nimakarimi676@gmail.com",
 		"link": "https://nimakarimi.me"
 	},
+	"homepage": "https://nimakarimi97.github.io/nimakarimi/",
+	"private": true,
 	"version": "1.0.0",
 	"type": "module",
 	"scripts": {
