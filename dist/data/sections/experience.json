@@ -1,0 +1,74 @@
+{
+	"locales": {
+		"en": {
+			"title": "<span class='text-primary'>Professional</span> Experience",
+			"description": "A look into my work experience and career journey."
+		},
+		"it": {
+			"title": "<span class='text-primary'>Esperienza</span> Professionale",
+			"description": "Un'occhiata alla mia esperienza lavorativa e percorso professionale."
+		}
+	},
+	"items": [
+		{
+			"id": "experience_item_1",
+			"place": "@link{places.leanbit}",
+			"period": ["2022/04", "2022/10"],
+			"locales": {
+				"en": {
+					"title": "Software Developer Intern",
+					"description": "Learning and practicing full-stack website development.<br><strong>Skills:</strong> Ruby on Rails, React.JS, Redux, SQL"
+				},
+				"it": {
+					"title": "Sviluppatore Software Intern",
+					"description": "Apprendimento e pratica dello sviluppo web full-stack.<br><strong>Competenze:</strong> Ruby on Rails, React.JS, Redux, SQL"
+				}
+			}
+		},
+		{
+			"id": "experience_item_2",
+			"place": "@link{places.freelance}",
+			"period": ["2022/10", "now"],
+			"locales": {
+				"en": {
+					"title": "Web Developer Freelancer",
+					"description": "<strong>Skills:</strong> TypeScript, jQuery, React and React Native, Vue, Firebase, HTML and CSS (Sass, Bootstrap, Tailwind)"
+				},
+				"it": {
+					"title": "Sviluppatore Web Freelance",
+					"description": "<strong>Competenze:</strong> TypeScript, jQuery, React e React Native, Vue, Firebase, HTML e CSS (Sass, Bootstrap, Tailwind)"
+				}
+			}
+		},
+		{
+			"id": "experience_item_3",
+			"place": "@link{places.cp}",
+			"period": ["2023/01", "2023/09"],
+			"locales": {
+				"en": {
+					"title": "ML Developer",
+					"description": "Working as a full-stack developer, with C#, Python (Flask), and Angular. Implemented a ChatGPT chatbot (via LLM) that can answer users' questions regarding his/her documents, events, and tasks."
+				},
+				"it": {
+					"title": "Sviluppatore ML",
+					"description": "Lavoro come sviluppatore full-stack, con C#, Python (Flask) e Angular. Implementato un chatbot ChatGPT (tramite LLM) in grado di rispondere alle domande degli utenti sui loro documenti, eventi e compiti."
+				}
+			}
+		},
+		{
+			"id": "experience_item_4",
+			"place": "@link{places.keySolution}",
+			"period": ["2023/10", "now"],
+			"locales": {
+				"en": {
+					"title": "Full-stack Developer and Project Manager",
+					"description": "Managing team activities using Agile and Scrum methodologies to handle two projects:<br><ul><li><strong>Factory Simulation and Dashboard:</strong> A web-based application developed with Vue.js, PostgreSQL, Node.js and Express.js to support Big Data Analytics and various lifecycle activities of a plant.</li><li><strong>CV Management Tool:</strong> Created with Vue.js, Nuxt.js, and ChatGPT integration to enhance CV management and analysis processes.</li></ul> Facilitated team building and strengthened working relationships through various activities."
+				},
+				"it": {
+					"title": "Sviluppatore Full-stack e Project Manager",
+					"description": "Gestione delle attività del team utilizzando metodologie Agile e Scrum per gestire due progetti:<br><ul><li><strong>Factory Simulation e Dashboard:</strong> Un'applicazione web sviluppata con Vue.js, PostgreSQL, Node.js e Express.js per supportare Big Data Analytics e varie attività del ciclo di vita di un impianto.</li><li><strong>Strumento di Gestione CV:</strong> Creato con Vue.js, Nuxt.js e integrazione ChatGPT per migliorare i processi di gestione e analisi dei CV.</li></ul> Facilitato il team building e rafforzato i rapporti di lavoro attraverso varie attività."
+				}
+			}
+		}
+	]
+}
