@@ -62,7 +62,7 @@
 			"locales": {
 				"en": {
 					"title": "Full-stack Developer and Project Manager",
-					"description": "Managing team activities using Agile and Scrum methodologies to handle two projects:<br><ul><li><strong>Factory Simulation and Dashboard:</strong> A web-based application developed with Vue.js, PostgreSQL, Node.js and Express.js to support Big Data Analytics and various lifecycle activities of a plant.</li><li><strong>CV Management Tool:</strong> Created with Vue.js, Nuxt.js, and ChatGPT integration to enhance CV management and analysis processes.</li></ul> Facilitated team building and strengthened working relationships through various activities."
+					"description": "Managing team activities using Agile and Scrum methodologies to handle two projects:<br><ul><li><strong>Factory Simulation and Dashboard:</strong> A web-based application developed with Vue.js, PostgreSQL, Node.js and Express.js to support Big Data Analytics and various lifecycle activities of a plant.</li><li><strong>CV Management Tool:</strong> Created with Vue.js, Nuxt.js, and ChatGPT integration to enhance CV management and analysis processes.</li></ul> <br> Facilitated team building and strengthened working relationships through various activities. Additionally, assisted in <b>optimizing application performance</b> to ensure <b>fast load times</b> and <b>efficient resource usage</b>."
 				},
 				"it": {
 					"title": "Sviluppatore Full-stack e Project Manager",
