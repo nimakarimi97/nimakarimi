@@ -185,12 +185,12 @@
 			},
 			{
 				"imageIconUrl": null,
-				"faIcon": "fab fa-react",
+				"faIcon": "fab fa-node",
 				"value": 75,
 				"locales": {
 					"en": {
-						"title": "React",
-						"description": "Nanodegree in React development (Udacity)<br>Experience time: 1 year"
+						"title": "Node JS (Express) and Nuxt JS",
+						"description": "For backend development"
 					}
 				}
 			}
