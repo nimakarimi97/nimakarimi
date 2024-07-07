@@ -160,6 +160,7 @@ const _onToggleButton = () => {
 			text-transform: uppercase;
 			text-align: center;
 
+			transition: all 0.3s ease-in-out;
 			color: $light-1;
 
 			i {
@@ -169,17 +170,23 @@ const _onToggleButton = () => {
 			}
 
 			&:hover {
-				color: $nav-item-lighten-color;
+				color: darken($nav-item-lighten-color, 10%);
 
 				i {
 					color: $nav-item-lighten-strong-color;
 				}
+			}
+
+			&:active {
+				color: darken($nav-item-lighten-color, 20%);
+				transform: scale(0.9);
 			}
 		}
 
 		&.nav-item-selected {
 			.nav-link {
 				color: $nav-item-lighten-color;
+				margin-left: 1.5rem;
 
 				i {
 					color: $nav-item-lighten-strong-color;
