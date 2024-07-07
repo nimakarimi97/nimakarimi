@@ -45,11 +45,11 @@ const props = defineProps({
  * @type {ComputedRef<String>}
  */
 const coverTitle = computed(() => {
-	if (navigation.isAllAtOnceMode()) {
-		return props.sectionData.content['locales']['welcome'];
-	} else {
-		return props.sectionData.content['locales']['welcomeShort'];
-	}
+	// if (navigation.isAllAtOnceMode()) {
+	return props.sectionData.content['locales']['welcome'];
+	// } else {
+	// 	return props.sectionData.content['locales']['welcomeShort'];
+	// }
 });
 </script>
 
