@@ -48,6 +48,12 @@ jobs:
       - name: Build
         run: pnpm build
 
+      # New step to copy index.html to 404.html within the dist directory
+      - name: Prepare 404 page
+        run: |
+          cd dist
+          cp index.html 404.html
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
