@@ -52,7 +52,7 @@ export function useNavigation() {
 	 * @param {Array} sections
 	 * @param {Array} categories
 	 */
-	const init = (sections, categories) => {
+	function init(sections, categories) {
 		categories.forEach(category => {
 			_categorySectionMapping[category['id']] = [];
 		});
@@ -60,7 +60,7 @@ export function useNavigation() {
 		sections.forEach(section => {
 			_categorySectionMapping[section['categoryId']].push(section['id']);
 		});
-	};
+	}
 
 	/**
 	 * @return {boolean}

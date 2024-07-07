@@ -9,8 +9,8 @@
 			"faIcon": "fa-solid fa-clock"
 		},
 		{
-			"id": "showcase",
-			"faIcon": "fa-solid fa-images"
+			"id": "skills",
+			"faIcon": "fa-solid fa-laptop-code"
 		},
 		{
 			"id": "more",
@@ -42,7 +42,7 @@
 		},
 		{
 			"id": "skills",
-			"categoryId": "showcase",
+			"categoryId": "skills",
 			"component": "InfoSection",
 			"jsonPath": "data/sections/skills.json",
 			"faIcon": "fa-solid fa-tools"
