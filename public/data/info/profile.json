@@ -12,8 +12,8 @@
 	"contact": {
 		"address": {
 			"id": "address",
-			"value": "Milan",
-			"valueShort": "Milan",
+			"value": "Milan, Italy",
+			"valueShort": "Milan, Italy",
 			"faIcon": "fa-solid fa-city",
 			"href": null
 		},
