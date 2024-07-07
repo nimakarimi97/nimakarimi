@@ -1,248 +1,248 @@
 {
-    "locales": {
-        "en": {
-            "title": "<span class='text-primary'>Hobbies</span> & Interests",
-            "description": "This is pretty much how I spend my free time:"
-        },
-        "es": {
-            "title": "<span class='text-primary'>Pasatiempos</span> e Intereses",
-            "description": "Así es más o menos cómo paso mi tiempo libre:"
-        },
-        "fr": {
-            "title": "<span class='text-primary'>Loisirs</span> et Intérêts",
-            "description": "C'est à peu près ainsi que je passe mon temps libre:"
-        },
-        "zh": {
-            "title": "<span class='text-primary'>爱好</span>与兴趣",
-            "description": "这基本上是我空闲时间的安排："
-        }
-    },
-    "subcategories": [
-        {
-            "id": "activities",
-            "type": "pie",
-            "progress": "number",
-            "faIcon": "fa-solid fa-clock",
-            "locales": {
-                "en": {
-                    "title": null
-                }
-            }
-        },
-        {
-            "id": "interests",
-            "type": "list",
-            "progress": null,
-            "faIcon": "fa fa-book-open-reader",
-            "locales": {
-                "en": {
-                    "title": "Interests"
-                },
-                "es": {
-                    "title": "Intereses"
-                }
-            }
-        }
-    ],
-    "items": {
-        "activities": [
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-users",
-                "value": 15,
-                "locales": {
-                    "en": {
-                        "title": "Family & Friends",
-                        "description": "Time spent with cherished loved ones."
-                    },
-                    "es": {
-                        "title": "Familia y amigos",
-                        "description": "Tiempo con seres queridos apreciados."
-                    }
-                }
-            },
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-tasks",
-                "value": 26,
-                "locales": {
-                    "en": {
-                        "title": "My Projects",
-                        "description": "Pursuing my creative endeavors."
-                    },
-                    "es": {
-                        "title": "Mis Proyectos",
-                        "description": "Persiguiendo mis proyectos creativos."
-                    }
-                }
-            },
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-couch",
-                "value": 11,
-                "locales": {
-                    "en": {
-                        "title": "Relaxing",
-                        "description": "Indulging in tranquility, unwinding the stresses of life."
-                    },
-                    "es": {
-                        "title": "Relajación",
-                        "description": "Disfrutando de la tranquilidad, deshaciendo el estrés de la vida."
-                    }
-                }
-            },
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-book",
-                "value": 9,
-                "locales": {
-                    "en": {
-                        "title": "Studying",
-                        "description": "Embarking on a continuous journey of learning."
-                    },
-                    "es": {
-                        "title": "Estudio",
-                        "description": "Embarcando en un viaje continuo de aprendizaje."
-                    }
-                }
-            },
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-dumbbell",
-                "value": 17,
-                "locales": {
-                    "en": {
-                        "title": "Exercise",
-                        "description": "Dedicating time to physical well-being."
-                    },
-                    "es": {
-                        "title": "Ejercicio",
-                        "description": "Dedicando tiempo al bienestar físico."
-                    }
-                }
-            },
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-utensils",
-                "value": 19,
-                "locales": {
-                    "en": {
-                        "title": "Cooking",
-                        "description": "Creating culinary masterpieces."
-                    },
-                    "es": {
-                        "title": "Cocina",
-                        "description": "Creando obras maestras culinarias."
-                    }
-                }
-            },
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-map",
-                "value": 4,
-                "locales": {
-                    "en": {
-                        "title": "Exploring",
-                        "description": "Venturing into new realms, seeking the thrill of uncharted discoveries."
-                    },
-                    "es": {
-                        "title": "Exploración",
-                        "description": "Adentrándome en nuevos mundos, buscando la emoción de descubrimientos inexplorados."
-                    }
-                }
-            }
-        ],
-        "interests": [
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-paint-brush",
-                "value": null,
-                "locales": {
-                    "en": {
-                        "title": "User Experience Design",
-                        "description": "Proficient in crafting user-centric digital experiences. Adept at making technology intuitive and accessible, enhancing user satisfaction."
-                    },
-                    "es": {
-                        "title": "Diseño de Experiencia de Usuario",
-                        "description": "Destacada habilidad en crear experiencias digitales centradas en el usuario. Experto en hacer que la tecnología sea intuitiva y accesible, mejorando la satisfacción del usuario."
-                    }
-                }
-            },
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-code",
-                "value": null,
-                "locales": {
-                    "en": {
-                        "title": "Programming",
-                        "description": "Exploring code, algorithms, and building software solutions for real-world challenges."
-                    },
-                    "es": {
-                        "title": "Programación",
-                        "description": "Explorar código, algoritmos y desarrollar soluciones de software para desafíos del mundo real."
-                    }
-                }
-            },
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-music",
-                "value": null,
-                "locales": {
-                    "en": {
-                        "title": "Music",
-                        "description": "Playing instruments, composing, and embracing the harmony of diverse musical genres."
-                    },
-                    "es": {
-                        "title": "Música",
-                        "description": "Tocar instrumentos, componer y abrazar la armonía de diversos géneros musicales."
-                    }
-                }
-            },
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-users",
-                "value": null,
-                "locales": {
-                    "en": {
-                        "title": "User Research",
-                        "description": "Delving into user behavior and insights to shape effective design strategies."
-                    },
-                    "es": {
-                        "title": "Investigación de Usuarios",
-                        "description": "Profundizar en el comportamiento y perspectivas del usuario para definir estrategias de diseño efectivas."
-                    }
-                }
-            },
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-desktop",
-                "value": null,
-                "locales": {
-                    "en": {
-                        "title": "Front-End Development",
-                        "description": "Crafting interactive web interfaces using modern technologies for seamless user experiences."
-                    },
-                    "es": {
-                        "title": "Desarrollo Front-End",
-                        "description": "Elaborar interfaces web interactivas utilizando tecnologías modernas para experiencias de usuario fluidas."
-                    }
-                }
-            },
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-palette",
-                "value": null,
-                "locales": {
-                    "en": {
-                        "title": "Visual Arts",
-                        "description": "Exploring visual aesthetics, graphic design, and expressing ideas through artistic creativity."
-                    },
-                    "es": {
-                        "title": "Artes Visuales",
-                        "description": "Explorar la estética visual, el diseño gráfico y expresar ideas a través de la creatividad artística."
-                    }
-                }
-            }
-        ]
-    }
+	"locales": {
+		"en": {
+			"title": "<span class='text-primary'>Hobbies</span> & Interests",
+			"description": "This is pretty much how I spend my free time:"
+		},
+		"es": {
+			"title": "<span class='text-primary'>Pasatiempos</span> e Intereses",
+			"description": "Así es más o menos cómo paso mi tiempo libre:"
+		},
+		"fr": {
+			"title": "<span class='text-primary'>Loisirs</span> et Intérêts",
+			"description": "C'est à peu près ainsi que je passe mon temps libre:"
+		},
+		"zh": {
+			"title": "<span class='text-primary'>爱好</span>与兴趣",
+			"description": "这基本上是我空闲时间的安排："
+		}
+	},
+	"subcategories": [
+		{
+			"id": "activities",
+			"type": "pie",
+			"progress": "number",
+			"faIcon": "fa-solid fa-clock",
+			"locales": {
+				"en": {
+					"title": null
+				}
+			}
+		},
+		{
+			"id": "interests",
+			"type": "list",
+			"progress": null,
+			"faIcon": "fa fa-book-open-reader",
+			"locales": {
+				"en": {
+					"title": "Interests"
+				},
+				"es": {
+					"title": "Intereses"
+				}
+			}
+		}
+	],
+	"items": {
+		"activities": [
+			{
+				"imageIconUrl": null,
+				"faIcon": "fas fa-users",
+				"value": 15,
+				"locales": {
+					"en": {
+						"title": "Family & Friends",
+						"description": "Time spent with cherished loved ones."
+					},
+					"es": {
+						"title": "Familia y amigos",
+						"description": "Tiempo con seres queridos apreciados."
+					}
+				}
+			},
+			{
+				"imageIconUrl": null,
+				"faIcon": "fas fa-tasks",
+				"value": 26,
+				"locales": {
+					"en": {
+						"title": "My Projects",
+						"description": "Pursuing my creative endeavors."
+					},
+					"es": {
+						"title": "Mis Proyectos",
+						"description": "Persiguiendo mis proyectos creativos."
+					}
+				}
+			},
+			{
+				"imageIconUrl": null,
+				"faIcon": "fas fa-couch",
+				"value": 11,
+				"locales": {
+					"en": {
+						"title": "Relaxing",
+						"description": "Indulging in tranquility, unwinding the stresses of life."
+					},
+					"es": {
+						"title": "Relajación",
+						"description": "Disfrutando de la tranquilidad, deshaciendo el estrés de la vida."
+					}
+				}
+			},
+			{
+				"imageIconUrl": null,
+				"faIcon": "fas fa-book",
+				"value": 9,
+				"locales": {
+					"en": {
+						"title": "Studying",
+						"description": "Embarking on a continuous journey of learning."
+					},
+					"es": {
+						"title": "Estudio",
+						"description": "Embarcando en un viaje continuo de aprendizaje."
+					}
+				}
+			},
+			{
+				"imageIconUrl": null,
+				"faIcon": "fas fa-dumbbell",
+				"value": 17,
+				"locales": {
+					"en": {
+						"title": "Exercise",
+						"description": "Dedicating time to physical well-being."
+					},
+					"es": {
+						"title": "Ejercicio",
+						"description": "Dedicando tiempo al bienestar físico."
+					}
+				}
+			},
+			{
+				"imageIconUrl": null,
+				"faIcon": "fas fa-utensils",
+				"value": 19,
+				"locales": {
+					"en": {
+						"title": "Cooking",
+						"description": "Creating culinary masterpieces."
+					},
+					"es": {
+						"title": "Cocina",
+						"description": "Creando obras maestras culinarias."
+					}
+				}
+			},
+			{
+				"imageIconUrl": null,
+				"faIcon": "fas fa-map",
+				"value": 4,
+				"locales": {
+					"en": {
+						"title": "Exploring",
+						"description": "Venturing into new realms, seeking the thrill of uncharted discoveries."
+					},
+					"es": {
+						"title": "Exploración",
+						"description": "Adentrándome en nuevos mundos, buscando la emoción de descubrimientos inexplorados."
+					}
+				}
+			}
+		],
+		"interests": [
+			{
+				"imageIconUrl": null,
+				"faIcon": "fas fa-paint-brush",
+				"value": null,
+				"locales": {
+					"en": {
+						"title": "User Experience Design",
+						"description": "Proficient in crafting user-centric digital experiences. Adept at making technology intuitive and accessible, enhancing user satisfaction."
+					},
+					"es": {
+						"title": "Diseño de Experiencia de Usuario",
+						"description": "Destacada habilidad en crear experiencias digitales centradas en el usuario. Experto en hacer que la tecnología sea intuitiva y accesible, mejorando la satisfacción del usuario."
+					}
+				}
+			},
+			{
+				"imageIconUrl": null,
+				"faIcon": "fas fa-code",
+				"value": null,
+				"locales": {
+					"en": {
+						"title": "Programming",
+						"description": "Exploring code, algorithms, and building software solutions for real-world challenges."
+					},
+					"es": {
+						"title": "Programación",
+						"description": "Explorar código, algoritmos y desarrollar soluciones de software para desafíos del mundo real."
+					}
+				}
+			},
+			{
+				"imageIconUrl": null,
+				"faIcon": "fas fa-music",
+				"value": null,
+				"locales": {
+					"en": {
+						"title": "Music",
+						"description": "Playing instruments, composing, and embracing the harmony of diverse musical genres."
+					},
+					"es": {
+						"title": "Música",
+						"description": "Tocar instrumentos, componer y abrazar la armonía de diversos géneros musicales."
+					}
+				}
+			},
+			{
+				"imageIconUrl": null,
+				"faIcon": "fas fa-users",
+				"value": null,
+				"locales": {
+					"en": {
+						"title": "User Research",
+						"description": "Delving into user behavior and insights to shape effective design strategies."
+					},
+					"es": {
+						"title": "Investigación de Usuarios",
+						"description": "Profundizar en el comportamiento y perspectivas del usuario para definir estrategias de diseño efectivas."
+					}
+				}
+			},
+			{
+				"imageIconUrl": null,
+				"faIcon": "fas fa-desktop",
+				"value": null,
+				"locales": {
+					"en": {
+						"title": "Front-End Development",
+						"description": "Crafting interactive web interfaces using modern technologies for seamless user experiences."
+					},
+					"es": {
+						"title": "Desarrollo Front-End",
+						"description": "Elaborar interfaces web interactivas utilizando tecnologías modernas para experiencias de usuario fluidas."
+					}
+				}
+			},
+			{
+				"imageIconUrl": null,
+				"faIcon": "fas fa-palette",
+				"value": null,
+				"locales": {
+					"en": {
+						"title": "Visual Arts",
+						"description": "Exploring visual aesthetics, graphic design, and expressing ideas through artistic creativity."
+					},
+					"es": {
+						"title": "Artes Visuales",
+						"description": "Explorar la estética visual, el diseño gráfico y expresar ideas a través de la creatividad artística."
+					}
+				}
+			}
+		]
+	}
 }

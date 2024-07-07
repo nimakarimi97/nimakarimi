@@ -1,22 +1,22 @@
 {
-    "locales": {
-        "en": {
-            "title": "<span class='text-primary'>Contact</span> Me",
-            "description": "Please don't hesitate to get in touch with me whenever you feel the need!",
-            "subtitle": "Or...",
-            "subtitleDescription": "If you prefer, you can reach out to me through the following options:"
-        },
-        "it": {
-            "title": "<span class='text-primary'>Contattami</span>",
-            "description": "Per favore, non esitare a contattarmi qualora avessi bisogno!",
-            "subtitle": "Oppure...",
-            "subtitleDescription": "Se preferisci, puoi contattarmi attraverso le seguenti opzioni:"
-        }
-    },
-    "items": [
-        "@link{profile.contact.address}",
-        "@link{profile.contact.phone}",
-        "@link{profile.contact.email}",
-        "@link{profile.contact.linkedin}"
-    ]
+	"locales": {
+		"en": {
+			"title": "<span class='text-primary'>Contact</span> Me",
+			"description": "Please don't hesitate to get in touch with me whenever you feel the need!",
+			"subtitle": "Or...",
+			"subtitleDescription": "If you prefer, you can reach out to me through the following options:"
+		},
+		"it": {
+			"title": "<span class='text-primary'>Contattami</span>",
+			"description": "Per favore, non esitare a contattarmi qualora avessi bisogno!",
+			"subtitle": "Oppure...",
+			"subtitleDescription": "Se preferisci, puoi contattarmi attraverso le seguenti opzioni:"
+		}
+	},
+	"items": [
+		"@link{profile.contact.address}",
+		"@link{profile.contact.phone}",
+		"@link{profile.contact.email}",
+		"@link{profile.contact.linkedin}"
+	]
 }
