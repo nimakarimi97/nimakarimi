@@ -1,25 +1,29 @@
 <template>
-    <!-- Fullscreen Loader -->
-    <Loader ref="loader" @shown="_onLoaderShown" @completed="_onLoaderCompleted" @will-hide="_onLoaderWillHide" />
+	<!-- Fullscreen Loader -->
+	<Loader
+		ref="loader"
+		@shown="_onLoaderShown"
+		@completed="_onLoaderCompleted"
+		@will-hide="_onLoaderWillHide" />
 
-    <!-- Spinner -->
-    <ActivitySpinner ref="activitySpinner" />
+	<!-- Spinner -->
+	<ActivitySpinner ref="activitySpinner" />
 </template>
 
 <script setup>
-import Loader from "../feedbacks/Loader.vue"
-import { ref } from "vue"
-import { useLayout } from "../../composables/layout.js"
-import ActivitySpinner from "../feedbacks/ActivitySpinner.vue"
+import Loader from '../feedbacks/Loader.vue';
+import { ref } from 'vue';
+import { useLayout } from '../../composables/layout.js';
+import ActivitySpinner from '../feedbacks/ActivitySpinner.vue';
 
-const layout = useLayout()
-const loader = ref(null)
-const activitySpinner = ref(null)
+const layout = useLayout();
+const loader = ref(null);
+const activitySpinner = ref(null);
 
 const _loaderListeners = {
-    onShown: null,
-    onComplete: null
-}
+	onShown: null,
+	onComplete: null,
+};
 
 /**
  * @public
@@ -27,9 +31,9 @@ const _loaderListeners = {
  * @param {String} iconImagePath
  */
 const setLoader = (message, iconImagePath) => {
-    layout.setPageScrollingEnabled(false)
-    loader.value.run(message, iconImagePath)
-}
+	layout.setPageScrollingEnabled(false);
+	loader.value.run(message, iconImagePath);
+};
 
 /**
  * @public
@@ -37,69 +41,69 @@ const setLoader = (message, iconImagePath) => {
  * @param {Function} [onComplete]
  */
 const setLoaderListeners = (onShown, onComplete) => {
-    _loaderListeners.onShown = onShown
-    _loaderListeners.onComplete = onComplete
-}
+	_loaderListeners.onShown = onShown;
+	_loaderListeners.onComplete = onComplete;
+};
 
 /**
  * @public
  * @param {Number} progress
  */
-const updateLoaderProgress = (progress) => {
-    loader.value.setTaskProgress(progress)
-}
+const updateLoaderProgress = progress => {
+	loader.value.setTaskProgress(progress);
+};
 
 /**
  * @private
  */
 const _onLoaderShown = () => {
-    if (_loaderListeners.onShown) {
-        _loaderListeners.onShown()
-    }
-}
+	if (_loaderListeners.onShown) {
+		_loaderListeners.onShown();
+	}
+};
 
 /**
  * @private
  */
 const _onLoaderCompleted = () => {
-    if (_loaderListeners.onComplete) {
-        _loaderListeners.onComplete()
-    }
-}
+	if (_loaderListeners.onComplete) {
+		_loaderListeners.onComplete();
+	}
+};
 
 /**
  * @private
  */
 const _onLoaderWillHide = () => {
-    layout.setPageScrollingEnabled(true)
-    _loaderListeners.onShown = null
-    _loaderListeners.onComplete = null
-}
+	layout.setPageScrollingEnabled(true);
+	_loaderListeners.onShown = null;
+	_loaderListeners.onComplete = null;
+};
 
 /**
  * @public
  * @param {String} message
  */
-const showActivitySpinner = (message) => {
-    activitySpinner.value.show(message)
-}
+const showActivitySpinner = message => {
+	activitySpinner.value.show(message);
+};
 
 /**
  * @public
  */
 const hideActivitySpinner = () => {
-    activitySpinner.value.hide()
-}
+	activitySpinner.value.hide();
+};
 
 defineExpose({
-    setLoader,
-    setLoaderListeners,
-    updateLoaderProgress,
-    showActivitySpinner,
-    hideActivitySpinner
-})
+	setLoader,
+	setLoaderListeners,
+	updateLoaderProgress,
+	showActivitySpinner,
+	hideActivitySpinner,
+});
 </script>
 
 <style lang="scss" scoped>
-@import "/src/scss/_theming.scss";
+@import '/src/scss/_theming.scss';
 </style>

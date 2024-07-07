@@ -3,13 +3,16 @@
 		"en": {
 			"title": "<span class='text-primary'>Skill</span> Set",
 			"description": "Exploring the diverse range of skills I've acquired and developed:"
+		},
+		"it": {
+			"title": "<span class='text-primary'>Competenze</span>",
+			"description": "Esplorando la vasta gamma di competenze acquisite e sviluppate:"
 		}
 	},
 	"subcategories": [
 		{
 			"id": "abilities",
 			"type": "grid",
-			"progress": null,
 			"faIcon": "fa-solid fa-square",
 			"locales": {
 				"en": {
@@ -30,15 +33,7 @@
 		},
 		{
 			"id": "languages",
-			"type": "list",
-			"progress": {
-				"0": "beginner",
-				"20": "rookie",
-				"40": "intermediate",
-				"60": "advanced",
-				"80": "fluent",
-				"100": "native"
-			},
+			"type": "grid",
 			"faIcon": "fa fa-language",
 			"locales": {
 				"en": {
@@ -49,7 +44,6 @@
 		{
 			"id": "extra",
 			"type": "grid",
-			"progress": null,
 			"faIcon": "fa fa-marker",
 			"locales": {
 				"en": {
@@ -61,145 +55,201 @@
 	"items": {
 		"abilities": [
 			{
-				"imageIconUrl": null,
+				"faIcon": "fa-solid fa-list-check",
+				"locales": {
+					"en": {
+						"title": "Project Management",
+						"description": "Experienced in managing project development from start to finish, ensuring timely delivery and quality. Familiar with <b>Agile and Scrum methodologies</b>, supporting flexible, iterative management and team collaboration."
+					},
+					"it": {
+						"title": "Project Management",
+						"description": "Esperto nella gestione dello sviluppo di progetti dall'inizio alla fine, garantendo consegne puntuali e di qualità. Familiare con le <b>metodologie Agile e Scrum</b>, supportando una gestione flessibile e iterativa e la collaborazione di squadra."
+					}
+				}
+			},
+			{
+				"faIcon": "fas fa-user-tie",
+				"locales": {
+					"en": {
+						"title": "Team Leadership",
+						"description": "Experienced in managing <b>team activities</b>. Proven ability to <b>facilitate team building</b> and strengthen working relationships."
+					},
+					"it": {
+						"title": "Leadership del Team",
+						"description": "Esperienza nella gestione delle <b>attività di squadra</b>. Capacità provata di <b>favorire la costruzione del team</b> e rafforzare le relazioni di lavoro."
+					}
+				}
+			},
+			{
+				"faIcon": "fa-solid fa-sitemap",
+				"locales": {
+					"en": {
+						"title": "Recruitment and Hiring",
+						"description": "Skilled in <b>publishing job offers</b>, conducting <b>interviews</b>, and <b>hiring candidates</b> who meet the team's needs and project requirements. Proficient in identifying talent that aligns with organizational goals and culture."
+					},
+					"it": {
+						"title": "Reclutamento e Assunzioni",
+						"description": "Abile nella <b>pubblicazione di offerte di lavoro</b>, nella conduzione di <b>colloqui</b> e nell'<b>assunzione di candidati</b> che soddisfano le esigenze del team e i requisiti del progetto. Esperto nell'identificare talenti in linea con gli obiettivi e la cultura organizzativa."
+					}
+				}
+			},
+			{
+				"faIcon": "fas fa-laptop-code",
+				"locales": {
+					"en": {
+						"title": "Full-Stack Development",
+						"description": "Capable of handling both <b>front-end and back-end development</b>, including building <b>reliable and scalable RESTful APIs</b> to enhance front-end functionality."
+					},
+					"it": {
+						"title": "Sviluppo Full-Stack",
+						"description": "Capacità di gestire lo sviluppo <b>front-end e back-end</b>, inclusa la creazione di <b>API RESTful affidabili e scalabili</b> per migliorare la funzionalità del front-end."
+					}
+				}
+			},
+			{
 				"faIcon": "fas fa-mobile-alt",
-				"value": null,
 				"locales": {
 					"en": {
 						"title": "Responsive Layouts",
-						"description": "Proficient in crafting adaptable layouts for diverse devices, ensuring optimal user experience."
+						"description": "Skilled in crafting <b>adaptable layouts for diverse devices</b>, ensuring optimal user experience."
+					},
+					"it": {
+						"title": "Layout Responsivi",
+						"description": "Competenza nella creazione di <b>layout adattabili per diversi dispositivi</b>, garantendo un'esperienza utente ottimale."
 					}
 				}
 			},
 			{
-				"imageIconUrl": null,
-				"faIcon": "fas fa-paint-roller",
-				"value": null,
+				"faIcon": "fas fa-brain",
 				"locales": {
 					"en": {
-						"title": "Design Principles",
-						"description": "Masterful at creating captivating designs, blending color theory, typography, layout, and balance for effective messaging."
+						"title": "Continuous Learning",
+						"description": "<b>Possesses the confidence and ability</b> to learn new technologies and methodologies swiftly. <b>Adaptable to new challenges</b> and comfortable operating <b style='text-decoration: underline'>outside of the comfort zone</b>."
+					},
+					"it": {
+						"title": "Apprendimento Continuo",
+						"description": "<b>Possiede la fiducia e l'abilità</b> per apprendere rapidamente nuove tecnologie e metodologie. <b>Adattabile alle nuove sfide</b> e a suo agio nell'operare <b style='text-decoration: underline'>al di fuori della zona di comfort</b>."
 					}
 				}
 			},
 			{
-				"imageIconUrl": null,
-				"faIcon": "fas fa-vector-square",
-				"value": null,
+				"faIcon": "fas fa-users",
 				"locales": {
 					"en": {
-						"title": "Wireframing",
-						"description": "Skilled in creating detailed wireframes to visualize and plan user interfaces, effectively laying the foundation for intuitive design."
-					}
-				}
-			},
-			{
-				"imageIconUrl": null,
-				"faIcon": "fas fa-check-double",
-				"value": null,
-				"locales": {
-					"en": {
-						"title": "Usability Testing",
-						"description": "Enhancing user experiences through comprehensive usability testing."
-					}
-				}
-			},
-			{
-				"imageIconUrl": null,
-				"faIcon": "fas fa-expand-arrows-alt",
-				"value": null,
-				"locales": {
-					"en": {
-						"title": "Interaction Design",
-						"description": "Proficient in creating intuitive and seamless interactions for user-friendly experiences, harmonizing aesthetics and usability."
-					}
-				}
-			},
-			{
-				"imageIconUrl": null,
-				"faIcon": "fas fa-laptop-code",
-				"value": null,
-				"locales": {
-					"en": {
-						"title": "Prototyping",
-						"description": "Skilled in translating concepts into interactive prototypes for testing and refinement."
+						"title": "Teamworking",
+						"description": "Effective <b>collaboration and communication</b> within <b>cross-functional teams</b>."
+					},
+					"it": {
+						"title": "Lavoro di Team",
+						"description": "<b>Collaborazione e comunicazione efficaci</b> all'interno di <b>squadre cross-funzionali</b>."
 					}
 				}
 			}
 		],
 		"programming": [
 			{
-				"imageIconUrl": null,
 				"faIcon": "fab fa-html5",
 				"value": 95,
 				"locales": {
 					"en": {
-						"title": "HTML 5",
-						"description": "Experience Time: 5 years"
+						"title": "HTML 5 and CSS 3",
+						"description": "Experienced in creating structured and styled web content with <b>HTML, CSS, SCSS, Bootstrap and Tailwind framework</b>."
+					},
+					"it": {
+						"title": "HTML 5 e CSS 3",
+						"description": "Esperienza nella creazione di contenuti web strutturati e stilizzati con <b>HTML, CSS, SCSS, framework Bootstrap e Tailwind</b>."
 					}
 				}
 			},
 			{
-				"imageIconUrl": null,
-				"faIcon": "fab fa-css3-alt",
-				"value": 90,
-				"locales": {
-					"en": {
-						"title": "CSS 3",
-						"description": "Experience Time: 3 years"
-					}
-				}
-			},
-			{
-				"imageIconUrl": null,
-				"faIcon": "fab fa-sass",
-				"value": 65,
-				"locales": {
-					"en": {
-						"title": "Sass/Less",
-						"description": "Experience Time: 2 years"
-					}
-				}
-			},
-			{
-				"imageIconUrl": null,
 				"faIcon": "fab fa-js-square",
 				"value": 85,
 				"locales": {
 					"en": {
-						"title": "JavaScript",
-						"description": "Experience Time: 3 years"
+						"title": "JavaScript & TypeScript",
+						"description": "Proficient in JavaScript and TypeScript for versatile and robust web development."
+					},
+					"it": {
+						"title": "JavaScript & TypeScript",
+						"description": "Competente in JavaScript e TypeScript per lo sviluppo web versatile e robusto."
 					}
 				}
 			},
 			{
-				"imageIconUrl": null,
 				"faIcon": "fab fa-vuejs",
 				"value": 100,
 				"locales": {
 					"en": {
 						"title": "Vue 3",
-						"description": "Experience Time: 2 years"
+						"description": "Skilled in developing responsive and dynamic applications using Vue.js."
+					},
+					"it": {
+						"title": "Vue 3",
+						"description": "Competente nello sviluppo di applicazioni responsive e dinamiche utilizzando Vue.js."
 					}
 				}
 			},
 			{
-				"imageIconUrl": null,
 				"faIcon": "fab fa-react",
-				"value": 75,
+				"value": 60,
 				"locales": {
 					"en": {
 						"title": "React",
-						"description": "Nanodegree in React development (Udacity)<br>Experience time: 1 year"
+						"description": "Experienced in building interactive user interfaces with React."
+					},
+					"it": {
+						"title": "React",
+						"description": "Esperienza nella creazione di interfacce utente interattive con React."
+					}
+				}
+			},
+			{
+				"faIcon": "fa-brands fa-figma",
+				"value": 60,
+				"locales": {
+					"en": {
+						"title": "Figma",
+						"description": "Comfortable designing and prototyping user-centered designs with Figma."
+					},
+					"it": {
+						"title": "Figma",
+						"description": "A suo agio nel progettare e prototipare design centrati sull'utente con Figma."
+					}
+				}
+			},
+			{
+				"faIcon": "fab fa-node-js",
+				"value": 75,
+				"locales": {
+					"en": {
+						"title": "Node JS (Express JS) and Nuxt JS",
+						"description": "Experienced in back-end development with Node.js and Express.js and building server-side rendered applications with Nuxt.js."
+					},
+					"it": {
+						"title": "Node JS (Express JS) e Nuxt JS",
+						"description": "Esperienza nello sviluppo back-end con Node.js e Express.js e nella creazione di applicazioni renderizzate lato server con Nuxt.js."
+					}
+				}
+			},
+			{
+				"faIcon": "fa-solid fa-database",
+				"value": 75,
+				"locales": {
+					"en": {
+						"title": "Database (SQL and NoSQL)",
+						"description": "Skilled in working with <b>PostgreSQL and MongoDB</b>."
+					},
+					"it": {
+						"title": "Database (SQL e NoSQL)",
+						"description": "Competente nell'uso di <b>PostgreSQL e MongoDB</b>."
 					}
 				}
 			}
 		],
+
 		"languages": [
 			{
 				"imageIconUrl": "images/flags/ir.png",
-				"faIcon": null,
-				"value": 100,
 				"locales": {
 					"en": {
 						"title": "Persian",
@@ -209,8 +259,6 @@
 			},
 			{
 				"imageIconUrl": "images/flags/en.png",
-				"faIcon": null,
-				"value": 80,
 				"locales": {
 					"en": {
 						"title": "English",
@@ -220,91 +268,100 @@
 			},
 			{
 				"imageIconUrl": "images/flags/it.png",
-				"faIcon": null,
-				"value": 60,
 				"locales": {
 					"en": {
 						"title": "Italian",
-						"description": "Fluent in both spoken and written Italian"
+						"description": "Fluent in both spoken and written"
 					}
 				}
 			},
 			{
 				"imageIconUrl": "images/flags/es.png",
-				"faIcon": null,
-				"value": 0,
 				"locales": {
 					"en": {
 						"title": "Spanish",
-						"description": "Basic knowledge in Spanish"
+						"description": "Basic knowledge"
 					}
 				}
 			}
 		],
+
 		"extra": [
 			{
-				"imageIconUrl": null,
-				"faIcon": null,
-				"value": null,
+				"faIcon": "fas fa-users",
 				"locales": {
 					"en": {
-						"title": "User Interface (UI) Design",
-						"description": "Able to design intuitive and visually appealing user interfaces for seamless user interactions."
+						"title": "Team Building Activities",
+						"description": "Capable of organizing and leading team-building activities which improve collaboration among colleagues, such as appreciation events and lunchtime workouts."
+					},
+					"it": {
+						"title": "Attività di Team Building",
+						"description": "Capace di organizzare e guidare attività di team building che migliorano la collaborazione tra colleghi, come eventi di apprezzamento e allenamenti durante la pausa pranzo."
 					}
 				}
 			},
 			{
-				"imageIconUrl": null,
-				"faIcon": null,
-				"value": null,
+				"faIcon": "fab fa-python",
 				"locales": {
 					"en": {
-						"title": "Front-End Development",
-						"description": "Able to code in VueJS, React JS, Swift, AngularJS and TypeScript."
+						"title": "Python",
+						"description": "Proficient in <b>Python programming language</b>, particularly in application to AI and machine learning projects. Completed thesis project utilizing Python for AI implementation."
+					},
+					"it": {
+						"title": "Python",
+						"description": "Competente nel linguaggio di programmazione <b>Python</b>, particolarmente nell'applicazione a progetti di intelligenza artificiale e machine learning. Progetto di tesi completato utilizzando Python per l'implementazione di AI."
 					}
 				}
 			},
 			{
-				"imageIconUrl": null,
-				"faIcon": null,
-				"value": null,
+				"faIcon": "fas fa-calculator",
 				"locales": {
 					"en": {
-						"title": "Information Visualization",
-						"description": "Able to transform complex data into clear visuals."
+						"title": "MATLAB",
+						"description": "Proficient in using <b>MATLAB</b> for data analysis, AI modeling, and simulation tasks."
+					},
+					"it": {
+						"title": "MATLAB",
+						"description": "Competente nell'uso di <b>MATLAB</b> per l'analisi dati, la modellazione di AI e le simulazioni."
 					}
 				}
 			},
 			{
-				"imageIconUrl": null,
-				"faIcon": null,
-				"value": null,
+				"faIcon": "fas fa-cube",
 				"locales": {
 					"en": {
-						"title": "Accessibility and Inclusive Design",
-						"description": "Able to create digital experiences that are accessible to all."
+						"title": "CAD Softwares",
+						"description": "Proficient in <b>SolidWorks</b> for 3D modeling and mechanical design tasks."
+					},
+					"it": {
+						"title": "Software CAD",
+						"description": "Competente in <b>SolidWorks</b> per la modellazione 3D e il design meccanico."
 					}
 				}
 			},
 			{
-				"imageIconUrl": null,
-				"faIcon": null,
-				"value": null,
+				"faIcon": "fas fa-cogs",
 				"locales": {
 					"en": {
-						"title": "User-Centric Data Analysis",
-						"description": "Proficient in analyzing data with a focus on the needs and preferences of users, enabling data-driven decisions that align with user expectations."
+						"title": "Mechatronics and Control Engineering Understanding",
+						"description": "Understanding of <b>Mechatronics</b> principles and <b>Control Engineering</b> concepts."
+					},
+					"it": {
+						"title": "Comprensione dell'Ingegneria Meccatronica e del Controllo",
+						"description": "Comprensione dei principi della <b>Meccatronica</b> e dei concetti di <b>Ingegneria del Controllo</b>."
 					}
 				}
 			},
 			{
-				"imageIconUrl": null,
-				"faIcon": null,
-				"value": null,
+				"faIcon": "fas fa-video",
 				"locales": {
 					"en": {
-						"title": "Mobile App User Experience",
-						"description": "Skilled in crafting user-centered experiences within mobile applications, ensuring smooth and intuitive interactions."
+						"title": "Video Editing",
+						"description": "Experienced in <b>video editing</b> due to managing content for <a href='https://www.youtube.com/@DronEscape_Explorer' target='_blank'>my YouTube channel</a>."
+					},
+					"it": {
+						"title": "Montaggio Video",
+						"description": "Esperienza nel <b>montaggio video</b> acquisita gestendo contenuti per <a href='https://www.youtube.com/@DronEscape_Explorer' target='_blank'>il mio canale YouTube</a>."
 					}
 				}
 			}
