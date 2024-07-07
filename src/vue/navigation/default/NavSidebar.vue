@@ -62,7 +62,6 @@ import NavProfileCard from '../partials/NavProfileCard.vue';
 import { computed, onMounted } from 'vue';
 import { useData } from '../../../composables/data.js';
 import { useNavigation } from '../../../composables/navigation.js';
-import Download from '../../components/Download.vue';
 
 const emit = defineEmits(['linkClicked']);
 const data = useData();

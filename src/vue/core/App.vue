@@ -9,7 +9,9 @@
 		<router-view />
 	</Layout>
 
-	<Download />
+	<DownloadButton
+		text="My CV"
+		link="/data/CV.pdf" />
 </template>
 
 <script setup>
@@ -20,7 +22,7 @@ import { useData } from '../../composables/data.js';
 import { useLayout } from '../../composables/layout.js';
 import { useUtils } from '../../composables/utils.js';
 import Layout from '../core/Layout.vue';
-import Download from '../components/Download.vue';
+import DownloadButton from '../components/DownloadButton.vue';
 
 const data = useData();
 const layout = useLayout();

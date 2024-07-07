@@ -4,7 +4,7 @@
 		target="_blank"
 		rel="noopener noreferrer"
 		class="button">
-		<span class="button__text">My CV</span>
+		<span class="button__text">{{ props.text }}</span>
 		<span class="button__icon"
 			><svg
 				class="svg"
@@ -26,8 +26,12 @@
 <script setup>
 import { ref } from 'vue';
 
-// study it Nima with codeium
-const cvFile = ref(new URL('/public/data/CV.pdf', import.meta.url).href);
+const props = defineProps({
+	text: String,
+	link: String,
+});
+
+const cvFile = ref(new URL(props.link, import.meta.url).href);
 </script>
 
 <style lang="scss" scoped>
