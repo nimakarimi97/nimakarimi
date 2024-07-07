@@ -34,14 +34,6 @@
 		{
 			"id": "languages",
 			"type": "grid",
-			"progress": {
-				"0": "beginner",
-				"20": "rookie",
-				"40": "intermediate",
-				"60": "advanced",
-				"80": "fluent",
-				"100": "native"
-			},
 			"faIcon": "fa fa-language",
 			"locales": {
 				"en": {
@@ -258,7 +250,6 @@
 		"languages": [
 			{
 				"imageIconUrl": "images/flags/ir.png",
-				"value": 100,
 				"locales": {
 					"en": {
 						"title": "Persian",
@@ -268,7 +259,6 @@
 			},
 			{
 				"imageIconUrl": "images/flags/en.png",
-				"value": 80,
 				"locales": {
 					"en": {
 						"title": "English",
@@ -278,21 +268,19 @@
 			},
 			{
 				"imageIconUrl": "images/flags/it.png",
-				"value": 60,
 				"locales": {
 					"en": {
 						"title": "Italian",
-						"description": "Fluent in both spoken and written Italian"
+						"description": "Fluent in both spoken and written"
 					}
 				}
 			},
 			{
 				"imageIconUrl": "images/flags/es.png",
-				"value": 0,
 				"locales": {
 					"en": {
 						"title": "Spanish",
-						"description": "Basic knowledge in Spanish"
+						"description": "Basic knowledge"
 					}
 				}
 			}
