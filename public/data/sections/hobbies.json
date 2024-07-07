@@ -19,9 +19,8 @@
 		},
 		{
 			"id": "interests",
-			"type": "grid",
-			"progress": null,
-			"faIcon": "fa fa-book-open-reader",
+			"type": "list",
+			"imageIconUrl": "images/icons/interests.png",
 			"locales": {
 				"en": {
 					"title": "Interests"
@@ -104,19 +103,6 @@
 		],
 		"interests": [
 			{
-				"faIcon": "fas fa-dumbbell",
-				"locales": {
-					"en": {
-						"title": "CrossFit",
-						"description": "Passionate about CrossFit and fitness."
-					},
-					"it": {
-						"title": "CrossFit",
-						"description": "Appassionato di CrossFit e fitness."
-					}
-				}
-			},
-			{
 				"faIcon": "fas fa-hiking",
 				"locales": {
 					"en": {
@@ -126,6 +112,19 @@
 					"it": {
 						"title": "Escursionismo",
 						"description": "Amo esplorare la natura attraverso avventure escursionistiche."
+					}
+				}
+			},
+			{
+				"faIcon": "fas fa-dumbbell",
+				"locales": {
+					"en": {
+						"title": "CrossFit",
+						"description": "Passionate about CrossFit and fitness."
+					},
+					"it": {
+						"title": "CrossFit",
+						"description": "Appassionato di CrossFit e fitness."
 					}
 				}
 			},

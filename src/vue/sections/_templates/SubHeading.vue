@@ -8,6 +8,11 @@
 				v-if="props.faIcon"
 				:class="props.faIcon"
 				class="ms-2" />
+
+			<img
+				v-else-if="props.img"
+				:src="props.img"
+				class="image" />
 		</h3>
 
 		<!-- Divider -->
@@ -29,7 +34,22 @@ const props = defineProps({
 	title: String,
 	description: String,
 	faIcon: String,
+	img: String,
 });
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.section-subheading-title {
+	position: relative;
+
+	.image {
+		width: 35%;
+		height: auto;
+		z-index: 0;
+
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+}
+</style>

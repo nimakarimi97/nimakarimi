@@ -8,7 +8,8 @@
 				<SubHeading
 					v-if="subcategory['locales']['title']"
 					:title="subcategory['locales']['title']"
-					:fa-icon="subcategory['faIcon']" />
+					:fa-icon="subcategory['faIcon']"
+					:img="subcategory['imageIconUrl']" />
 
 				<!-- Group Component -->
 				<component
@@ -100,9 +101,5 @@ const _fetchAndParseItemsFor = subcategory => {
 			)
 		);
 	}
-}
-
-.info-row {
-	overflow-x: hidden;
 }
 </style>
