@@ -33,7 +33,7 @@
 		},
 		{
 			"id": "languages",
-			"type": "list",
+			"type": "grid",
 			"progress": {
 				"0": "beginner",
 				"20": "rookie",
@@ -89,15 +89,15 @@
 				}
 			},
 			{
-				"faIcon": "fas fa-mobile-alt",
+				"faIcon": "fa-solid fa-sitemap",
 				"locales": {
 					"en": {
-						"title": "Responsive Layouts",
-						"description": "Skilled in crafting <b>adaptable layouts for diverse devices</b>, ensuring optimal user experience."
+						"title": "Recruitment and Hiring",
+						"description": "Skilled in <b>publishing job offers</b>, conducting <b>interviews</b>, and <b>hiring candidates</b> who meet the team's needs and project requirements. Proficient in identifying talent that aligns with organizational goals and culture."
 					},
 					"it": {
-						"title": "Layout Responsivi",
-						"description": "Competenza nella creazione di <b>layout adattabili per diversi dispositivi</b>, garantendo un'esperienza utente ottimale."
+						"title": "Reclutamento e Assunzioni",
+						"description": "Abile nella <b>pubblicazione di offerte di lavoro</b>, nella conduzione di <b>colloqui</b> e nell'<b>assunzione di candidati</b> che soddisfano le esigenze del team e i requisiti del progetto. Esperto nell'identificare talenti in linea con gli obiettivi e la cultura organizzativa."
 					}
 				}
 			},
@@ -111,6 +111,19 @@
 					"it": {
 						"title": "Sviluppo Full-Stack",
 						"description": "Capacità di gestire lo sviluppo <b>front-end e back-end</b>, inclusa la creazione di <b>API RESTful affidabili e scalabili</b> per migliorare la funzionalità del front-end."
+					}
+				}
+			},
+			{
+				"faIcon": "fas fa-mobile-alt",
+				"locales": {
+					"en": {
+						"title": "Responsive Layouts",
+						"description": "Skilled in crafting <b>adaptable layouts for diverse devices</b>, ensuring optimal user experience."
+					},
+					"it": {
+						"title": "Layout Responsivi",
+						"description": "Competenza nella creazione di <b>layout adattabili per diversi dispositivi</b>, garantendo un'esperienza utente ottimale."
 					}
 				}
 			},
@@ -241,6 +254,7 @@
 				}
 			}
 		],
+
 		"languages": [
 			{
 				"imageIconUrl": "images/flags/ir.png",
