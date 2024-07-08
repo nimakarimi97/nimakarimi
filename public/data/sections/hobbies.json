@@ -173,11 +173,11 @@
 				"locales": {
 					"en": {
 						"title": "Video Creation using Drones",
-						"description": "Create engaging videos using drones, view my work on my YouTube channel."
+						"description": "Create engaging videos using drones, feel free to explore my videos on <a href='https://www.youtube.com/@DronEscape_Explorer' target='_blank'>my YouTube channel</a>."
 					},
 					"it": {
 						"title": "Creazione Video con Droni",
-						"description": "Creazione di video coinvolgenti utilizzando droni, guarda il mio lavoro sul mio canale YouTube."
+						"description": "Creazione di video coinvolgenti utilizzando droni, Non esiti ad esplorare i miei video sul <a href='https://www.youtube.com/@DronEscape_Explorer' target='_blank'>mio canale YouTube</a>."
 					}
 				}
 			}
