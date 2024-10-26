@@ -1,7 +1,3 @@
-/**
- * Created by Nima Karimi on 08.23.2023
- * App's entry point
- */
 import './scss/style.scss';
 import { useData } from './composables/data.js';
 import { useLanguage } from './composables/language.js';

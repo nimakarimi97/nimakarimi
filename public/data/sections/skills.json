@@ -149,7 +149,7 @@
 		"programming": [
 			{
 				"faIcon": "fab fa-html5",
-				"value": 95,
+				"value": 100,
 				"locales": {
 					"en": {
 						"title": "HTML 5 and CSS 3",
