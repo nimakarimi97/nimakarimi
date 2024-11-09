@@ -62,10 +62,12 @@ import NavProfileCard from '../partials/NavProfileCard.vue';
 import { computed, onMounted } from 'vue';
 import { useData } from '../../../composables/data.js';
 import { useNavigation } from '../../../composables/navigation.js';
+import { useRouter } from 'vue-router';
 
 const emit = defineEmits(['linkClicked']);
 const data = useData();
 const navigation = useNavigation();
+const router = useRouter();
 
 onMounted(() => {
 	if (!canShrink.value) {
@@ -103,6 +105,7 @@ const _getNavItemClassList = section => {
  */
 const _onLinkClicked = section => {
 	emit('linkClicked', section['id']);
+	router.push({ name: section['id'] });
 };
 
 /**

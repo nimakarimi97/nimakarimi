@@ -55,12 +55,12 @@ const _lastScrollY = { target: null, position: null };
 onMounted(() => {
 	window.addEventListener('resize', _onWindowChangeEvent);
 	window.addEventListener('scroll', _onWindowChangeEvent);
-	watch(
-		() => route.name,
-		() => {
-			_onRouteChanged();
-		}
-	);
+	// watch(
+	// 	() => route.name,
+	// 	() => {
+	// 		_onRouteChanged();
+	// 	}
+	// );
 	watch(
 		() => language.getSelectedLanguage(),
 		() => {
