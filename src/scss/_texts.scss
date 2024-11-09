@@ -125,6 +125,7 @@ a {
 
 	&.muted {
 		color: $text-muted;
+		text-decoration: underline;
 
 		&:hover {
 			color: $primary;

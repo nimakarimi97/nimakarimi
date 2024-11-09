@@ -7,9 +7,12 @@
 			<!-- Item -->
 			<div class="contact-item">
 				<!-- Item Logo -->
-				<div class="contact-item-logo">
+				<a
+					:href="item['href']"
+					target="_blank"
+					class="contact-item-logo">
 					<i :class="item['faIcon']" />
-				</div>
+				</a>
 
 				<!-- Item Texts -->
 				<div class="contact-item-content">
@@ -126,6 +129,12 @@ const _getItemLabel = item => {
 
 	color: $white;
 	background-color: darken($primary, 10%);
+	transition: all 0.3s ease-in-out;
+
+	&:hover {
+		background-color: $primary;
+		transform: scale(1.05);
+	}
 }
 
 .contact-item-content {
