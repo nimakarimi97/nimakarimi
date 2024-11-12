@@ -58,7 +58,7 @@
 		{
 			"id": "experience_item_4",
 			"place": "@link{places.keySolution}",
-			"period": ["2023/10", "now"],
+			"period": ["2023/10", "2024/10"],
 			"locales": {
 				"en": {
 					"title": "Full-stack Developer and Project Manager",
