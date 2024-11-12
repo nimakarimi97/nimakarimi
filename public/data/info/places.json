@@ -1,7 +1,7 @@
 {
 	"keySolution": {
 		"logoUrl": "images/places/key_solution_srl_logo.jpeg",
-		"faIcon": "fa fa-house-laptop",
+		"faIcon": "fa-solid fa-briefcase",
 		"locales": {
 			"en": {
 				"name": "Key Solution"
@@ -10,7 +10,7 @@
 	},
 	"cp": {
 		"logoUrl": "images/places/gruppo_centro_paghe_logo.jpeg",
-		"faIcon": "fab fa-apple",
+		"faIcon": "fa-solid fa-briefcase",
 		"locales": {
 			"en": {
 				"name": "Gruppo Centro Paghe"
@@ -19,7 +19,7 @@
 	},
 	"leanbit": {
 		"logoUrl": "images/places/leanbit_logo.jpeg",
-		"faIcon": "fa fa-house-laptop",
+		"faIcon": "fa-solid fa-briefcase",
 		"locales": {
 			"en": {
 				"name": "Leanbit"
@@ -28,7 +28,7 @@
 	},
 	"kntu": {
 		"logoUrl": "images/places/kntu_logo.jpeg",
-		"faIcon": "fab fa-google",
+		"faIcon": "fas fa-university",
 		"locales": {
 			"en": {
 				"name": "K. N. Toosi University of Technology"
