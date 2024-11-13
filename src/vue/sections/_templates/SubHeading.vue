@@ -51,5 +51,11 @@ const props = defineProps({
 		top: 0;
 		right: 0;
 	}
+
+	@media screen and (max-width: 768px) {
+		.image {
+			top: -2.4rem;
+		}
+	}
 }
 </style>

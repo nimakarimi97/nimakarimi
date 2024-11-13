@@ -100,8 +100,8 @@ const _getStyle = () => {
 				font-size: $value;
 				z-index: 50;
 
-				.circle-icon-img {
-				}
+				// .circle-icon-img {
+				// }
 			}
 		}
 	}

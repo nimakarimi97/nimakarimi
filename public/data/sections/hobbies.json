@@ -20,7 +20,7 @@
 		{
 			"id": "interests",
 			"type": "list",
-			"imageIconUrl": "images/icons/interests.png",
+			"imageIconUrl": "images/pictures/interests.png",
 			"locales": {
 				"en": {
 					"title": "Interests"
