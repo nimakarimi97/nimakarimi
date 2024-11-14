@@ -55,12 +55,12 @@ const _lastScrollY = { target: null, position: null };
 onMounted(() => {
 	window.addEventListener('resize', _onWindowChangeEvent);
 	window.addEventListener('scroll', _onWindowChangeEvent);
-	// watch(
-	// 	() => route.name,
-	// 	() => {
-	// 		_onRouteChanged();
-	// 	}
-	// );
+	watch(
+		() => route.name,
+		() => {
+			_onRouteChanged();
+		}
+	);
 	watch(
 		() => language.getSelectedLanguage(),
 		() => {
@@ -105,14 +105,15 @@ const _onWindowChangeEvent = () => {
  * @private
  */
 const _onRouteChanged = () => {
-	if (Math.abs(window.scrollY) > 0) {
-		const feedbackView = layout.getFeedbackView();
-		feedbackView.showActivitySpinner(data.getString('loading') + '...');
+	// Shows the loading spinner
+	// if (Math.abs(window.scrollY) > 0) {
+	// 	const feedbackView = layout.getFeedbackView();
+	// 	feedbackView.showActivitySpinner(data.getString('loading') + '...');
 
-		setTimeout(() => {
-			feedbackView.hideActivitySpinner();
-		}, 150);
-	}
+	// 	setTimeout(() => {
+	// 		feedbackView.hideActivitySpinner();
+	// 	}, 150);
+	// }
 
 	_onWindowChangeEvent();
 };
