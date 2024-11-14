@@ -17,11 +17,11 @@
 			"locales": {
 				"en": {
 					"title": "Software Developer Intern",
-					"description": "Learning and practicing full-stack website development.<br><strong>Skills:</strong> Ruby on Rails, React.JS, Redux, SQL"
+					"description": "Developed a <strong>full-stack tweet scheduler application</strong>, gaining hands-on experience in web development from backend to frontend.<br><strong>Skills:</strong> Ruby on Rails, React.JS, Redux, SQL"
 				},
 				"it": {
 					"title": "Sviluppatore Software Intern",
-					"description": "Apprendimento e pratica dello sviluppo web full-stack.<br><strong>Competenze:</strong> Ruby on Rails, React.JS, Redux, SQL"
+					"description": "Ho sviluppato <strong>un’applicazione di pianificazione dei tweet full-stack</strong>, acquisendo esperienza pratica nello sviluppo web dal backend al frontend.<br><strong>Competenze:</strong> Ruby on Rails, React.JS, Redux, SQL"
 				}
 			}
 		},
