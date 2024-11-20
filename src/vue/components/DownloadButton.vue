@@ -1,10 +1,11 @@
 <template>
 	<a
-		:href="cvFile"
+		@click="downloadFile"
+		:href="filePath"
 		target="_blank"
 		rel="noopener noreferrer"
 		class="button">
-		<span class="button__text">{{ props.text }}</span>
+		<span class="button__text">{{ text }}</span>
 		<span class="button__icon"
 			><svg
 				class="svg"
@@ -23,15 +24,20 @@
 	</a>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue';
+import { useRouter } from 'vue-router';
 
-const props = defineProps({
-	text: String,
-	link: String,
+const { text, link } = defineProps({
+	text: { type: String, required: true },
+	link: { type: String, required: true },
 });
 
-const cvFile = ref(new URL(props.link, import.meta.url).href);
+const filePath = ref(new URL(link, import.meta.url).href);
+
+function downloadFile() {
+	useRouter().push({ path: '/cv' });
+}
 </script>
 
 <style lang="scss" scoped>
